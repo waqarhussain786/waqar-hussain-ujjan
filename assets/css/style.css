@@ -526,6 +526,13 @@ html, body {
 
 /* FOOTER
 ================================================== */
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .site-footer {
     position: fixed;
     bottom: 0;
