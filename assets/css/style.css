@@ -518,7 +518,7 @@ html, body {
 
 /* Section: Form*/
 .section-form {
-    padding-bottom: 120px;
+    padding-bottom: 0px;
 }
 
 .section-form .btn {
