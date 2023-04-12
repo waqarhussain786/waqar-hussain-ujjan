@@ -111,7 +111,7 @@ h4 {
     background-color: transparent; 
     box-shadow: none;
     outline: 0 none transparent;
-    -webkit-appearance:none;
+    /* -webkit-appearance:none; */
  }
 
 textarea {
@@ -341,7 +341,7 @@ html, body {
 
 .section-services .container {
     padding: 100px;
-    padding-top: 2%;
+    padding-top: 10%;
     position: relative;
     background-color: #fff;
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
@@ -537,12 +537,10 @@ html, body {
 .site-footer {
     position: fixed;
     bottom: 0;
-    padding: 5px 0;
+    padding: 20px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 40px;
+    background-color: rgba(0, 0, 0,0.8);
+    z-index: -1;
 }
 
 .icon {
